@@ -1,0 +1,14 @@
+<%- include('../partials/header'); %>
+
+<main class="main main-single container">
+    <section class="section section-single d-flex justify-content-between">
+        <figure class="figure-single">
+            <img src="/media/S2.jpg" alt="titeimg" class="img-fluid">
+            <figcaption class="figcaption">Name: <%= data.name %></figcaption>
+            <figcaption class="figcaption">Normalized Name: <%= data.normalized_name %></figcaption>
+            <figcaption class="figcaption">Gender: <%= data.gender %></figcaption>
+        </figure>
+    </section>
+</main>
+
+<%- include('../partials/footer'); %>
